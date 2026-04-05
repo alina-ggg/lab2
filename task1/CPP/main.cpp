@@ -28,8 +28,8 @@ string minStr(string s, string t) {
     int minLen = s.length() + 1;
     
     // Перебираем все возможные подстроки
-    for (int i = 0; i < s.length(); i++) {
-        for (int j = i; j < s.length(); j++) {
+    for (int i = 0; i < s.length(); ++i) {
+        for (int j = i; j < s.length(); ++j) {
             string str = s.substr(i, j - i + 1); // Вырезаем подстроку
             
             if (allSymvl(str, t)) {

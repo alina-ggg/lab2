@@ -40,8 +40,8 @@
 ```bash
 g++ main.cpp -o app_cpp
 ./app_cpp
-
-## 2. Go
+```
+**2. Go**
 ```bash
 go run main.go
 # или собрать бинарный файл:
@@ -49,7 +49,7 @@ go build -o app_go main.go
 ./app_go
 ```
 
-## 3. Assembler (x86_64 NASM)
+**3. Assembler (x86_64 NASM)**
 
 ```bash
 nasm -f elf64 main.asm -o main.o
@@ -59,35 +59,33 @@ ld main.o -o app_asm
 
 ## ⚡ Вариативная часть (Прикладные языки)
 
-### 4. Python
+**4. Python**
 
 ```bash
 python3 main.py
 ```
 
-### 5. Java
+**5. Java**
 
 ```bash
 javac Main.java
 java Main
 ```
 
-### 6. JavaScript (Node.js)
+**6. JavaScript (Node.js)**
 
 ```bash
 node main.js
 ```
 
-### 7. Kotlin
+**7. Kotlin**
 
 ```bash
 kotlinc main.kt -include-runtime -d main.jar
 java -jar main.jar
 ```
 
-### 8. Swift
-
-Если ты работаешь на Linux, используй скачанный Swift SDK:
+**8. Swift**
 
 ```bash
 swift main.swift
@@ -96,7 +94,7 @@ swiftc main.swift -o app_swift
 ./app_swift
 ```
 
-### 9. Elixir
+**9. Elixir**
 
 ```bash
 elixir main.exs

@@ -43,7 +43,7 @@ public class main {
         return result.isEmpty() ? "Не найдено" : result;
     }
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         Scanner sc = new Scanner(System.in);
         if (sc.hasNextLine()) {
             String s = sc.nextLine();

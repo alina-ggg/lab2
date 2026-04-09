@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     // Функция проверяет, содержит ли подстрока все символы из T
     public static boolean allSymvl(String str, String t) {
@@ -43,7 +43,7 @@ public class main {
         return result.isEmpty() ? "Не найдено" : result;
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         if (sc.hasNextLine()) {
             String s = sc.nextLine();
